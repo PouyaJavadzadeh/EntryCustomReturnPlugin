@@ -126,7 +126,7 @@ It can also be used as a [Bindable Property to bind to a ViewModel](./Samples/En
  var viewModel = new MyViewModel();
  var customReturnEntry = new CustomReturnEntry();
  customReturnEntry.SetBinding(CustomReturnEntry.ReturnCommandProperty, nameof(viewModel.EntryReturnCommand));
- customReturnEntry.SetBinding(CustomReturnEffect.ReturnCommandParameterProperty, nameof(viewModel.EntryReturnCommandParameter));
+ customReturnEntry.SetBinding(CustomReturnEntry.ReturnCommandParameterProperty, nameof(viewModel.EntryReturnCommandParameter));
 					
 ```
 
